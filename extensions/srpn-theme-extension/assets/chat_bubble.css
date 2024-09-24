@@ -1,0 +1,22 @@
+#chat-bubble:hover {
+    transform: scale(1.05);
+  }
+  
+  #chat-bubble:active {
+    transform: scale(0.95);
+  }
+  
+  #chat-box p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #chat-bubble-container.left-bottom #chat-box {
+    left: 0;
+  }
+  
+  #chat-bubble-container.middle-bottom #chat-box {
+    left: 50%;
+    transform: translateX(-50%);
+  }
